@@ -1,0 +1,112 @@
+.navbar {
+    padding: 30px;
+    background-color: #d9ebff;
+
+    text-align: center;
+}
+
+.banner {
+    padding: 0 50px;
+    background-color: #0083e8;
+
+    text-align: center;
+}
+
+.banner section {
+    display: inline-block;
+
+    vertical-align: middle;
+    text-align: left;
+}
+
+.banner section span {
+    font-family: Georgia, serif, Arial;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+}
+
+.banner section .banner-btn {
+    background-image: linear-gradient(to bottom right, #e77c31, #fd8d23);
+    color: white;
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+    margin: 20px 0;
+}
+
+.course-box {
+    background-color:#0076ff;
+    color: white;
+    text-decoration: none;
+    width: 400px;
+    padding: 15px 30px;
+
+    border-radius: 10px;
+}
+
+.course-box img {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+}
+
+.course-box div {
+    margin: 10px 0;
+}
+
+.course-box div .tutor {
+    font-size: 12px;
+}
+
+.course-box div .info {
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-overflow: ellipsis;
+}
+
+.vision {
+    margin: 0 120px;
+    font-size: 20px;
+}
+
+/* Media queries */
+@media (max-width: 768px) { /* Adjust the pixel value according to your needs */
+    .navbar {
+        padding: 15px;
+    }
+    
+    .banner {
+        padding: 0 20px;
+    }
+
+    .banner section span {
+        font-size: 48px; /* Make the font size smaller for mobile devices */
+    }
+
+    .course-box {
+        width: 100%; /* Full width on small screens */
+        padding: 15px;
+    }
+
+    .vision {
+        margin: 0 20px; /* Reduce margin on smaller screens */
+    }
+}
